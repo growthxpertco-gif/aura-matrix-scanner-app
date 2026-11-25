@@ -1,0 +1,6 @@
+{
+    "apkUrl":  "https://github.com/growthxpertco-gif/aura-matrix-scanner-app/releases/download/v1.0.3/AuraMatrix-1.0.3.apk",
+    "build":  3,
+    "version":  "1.0.3",
+    "notes":  "New design with smooth animations, a success screen after each report, and an update message that appears only once."
+}
