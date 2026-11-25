@@ -1,0 +1,6 @@
+{
+    "apkUrl":  "https://github.com/growthxpertco-gif/aura-matrix-scanner-app/releases/download/v1.0.1/aura-matrix-scanner.apk",
+    "build":  1,
+    "version":  "1.0.1",
+    "notes":  "First test version: clients, three numerology reports, fees and a demo scanner."
+}
