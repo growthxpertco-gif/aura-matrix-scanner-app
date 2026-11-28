@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="description" content="Astrology, numerology, Vastu and wellbeing services, with free practice tools.">
+<title>Practice tools | Aura Matrix</title>
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<nav>
+  <a class="brand" href="index.html"><img src="icon.png" alt="" width="32" height="32">Aura Matrix</a>
+  <div><a href="index.html">Services</a><a href="practice.html" aria-current="page">Practice</a><a href="privacy.html">Privacy</a></div>
+</nav>
+<main id="main">
+<header class="hero small">
+  <h1>Practice tools</h1>
+  <p>Free to use here. Nothing you do is saved or sent anywhere.</p>
+</header>
+<section class="tool">
+  <h2>Jap counter</h2>
+  <p class="big" id="count" aria-live="polite">0</p>
+  <p id="malas">0 malas of 108</p>
+  <button class="btn main wide" id="tap">Count one</button>
+  <button class="btn" id="reset">Start again</button>
+</section>
+<section class="tool">
+  <h2>Meditation timer</h2>
+  <p class="big" id="clock" aria-live="off">10:00</p>
+  <div class="row" role="group" aria-label="Minutes">
+    <button class="btn pick" data-min="5">5 min</button>
+    <button class="btn pick" data-min="10" aria-pressed="true">10 min</button>
+    <button class="btn pick" data-min="20">20 min</button>
+  </div>
+  <button class="btn main wide" id="start">Start</button>
+  <p id="timerSays" role="status"></p>
+</section>
+<section class="tool">
+  <h2>Tones</h2>
+  <p>Keep the volume low. These are sounds for practice, not a treatment.</p>
+  <div id="tones"></div>
+  <button class="btn" id="stop">Stop sound</button>
+</section>
+<script src="practice.js"></script>
+</main>
+<footer>
+  <p>These services are based on traditional practices and belief systems. They are offered for personal reflection and are not medical, legal, financial or engineering advice. No result is promised. Please see a qualified professional for health, legal, money or building matters.</p>
+  <p>Prepared by Growth Xpert.</p>
+</footer>
+</body>
+</html>
